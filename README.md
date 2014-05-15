@@ -16,13 +16,13 @@ Boilerplate project for front-end development.
 - Unit testing with [Karma](http://karma-runner.github.io/) and [Jasmine](http://jasmine.github.io/)
 - Faster dev compiling with [watchify](https://github.com/substack/watchify)
 - Service mocking with [connect middleware](http://www.senchalabs.org/connect/), [express](http://expressjs.com/), or [restify](http://mcavage.me/node-restify/)
-- Other tool considerations ([Plato](https://github.com/es-analysis/plato), [Istanbul](https://github.com/es-analysis/plato)
+- Other tool considerations ([Plato](https://github.com/es-analysis/plato), [Istanbul](https://github.com/es-analysis/plato))
 
 ## Setup
 
 ### 1. Install Node
 
-Make sure you have the [latest version](http://nodejs.org/). Check the version by typing this in a command prompt:
+Make sure you have the [latest version](http://nodejs.org/). Check the version by typing this in a command prompt (or [WebStorm](http://www.jetbrains.com/webstorm/) terminal):
 
     node -v
 
