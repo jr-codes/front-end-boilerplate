@@ -1,0 +1,15 @@
+{
+    "browser": true,
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "latedef": true,
+    "maxlen": 120,
+    "newcap": true,
+    "noarg": true,
+    "node": true,
+    "nonew": true,
+    "undef": true,
+    "unused": true
+}
