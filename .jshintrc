@@ -1,11 +1,13 @@
 {
     "browser": true,
+    "browserify": true,
     "bitwise": true,
     "camelcase": true,
     "curly": true,
     "eqeqeq": true,
     "latedef": true,
     "maxlen": 120,
+    "mocha": true,
     "newcap": true,
     "noarg": true,
     "node": true,

@@ -1,33 +1,26 @@
 # Front-End Boilerplate
 
-Boilerplate project for front-end development.
+Boilerplate project for front-end development built using [gulp](http://gulpjs.com/).
 
-## What It Does
+## Tools
 
-- Compiles [Sass](http://sass-lang.com/) to CSS
-- Adds vendor prefixes with [Autoprefixer](https://github.com/ai/autoprefixer)
-- Bundles CommonJS modules using [Browserify](http://browserify.org/)
-- Validates JS with [JSHint](http://jshint.com/)
-- Starts static web server and opens browser to build directory
-- Watches files and re-compiles/refreshes browser on file change.
+- [Sass](http://sass-lang.com/) + [Autoprefixer](https://github.com/ai/autoprefixer): CSS
+- [Browserify](http://browserify.org/) + [JSHint](http://jshint.com/): JavaScript
+- [BrowserSync](http://www.browsersync.io/): Live reload static web server
 
 ## Future To Do
 
-- Unit testing with [Karma](http://karma-runner.github.io/) and [Jasmine](http://jasmine.github.io/)
-- Faster dev compiling with [watchify](https://github.com/substack/watchify)
-- Service mocking with [connect middleware](http://www.senchalabs.org/connect/), [express](http://expressjs.com/), or [restify](http://mcavage.me/node-restify/)
-- Other tool considerations ([Plato](https://github.com/es-analysis/plato), [Istanbul](https://github.com/es-analysis/plato)
+- [Mocha](http://mochajs.org/) + [Chai](http://chaijs.com/) + [Sinon](http://sinonjs.org/): Unit testing
+- [Watchify](https://github.com/substack/watchify): Faster Browserify builds
+- [Plato](https://github.com/es-analysis/plato) + [Istanbul](https://gotwarlost.github.io/istanbul/): Code coverage reports
 
 ## Setup
 
 ### 1. Install Node
 
-Make sure you have the [latest version](http://nodejs.org/). Check the version by typing this in a command prompt:
+Make sure you have [the latest version](http://nodejs.org/). Type this in a command prompt (or [WebStorm](http://www.jetbrains.com/webstorm/) terminal):
 
     node -v
-
-**Windows Users Only**: [Uninstall Node first](http://stackoverflow.com/questions/20711240/how-to-completely-remove-node-js-from-windows) before installing the new version.
-
 
 ### 2. Install gulp
 
@@ -38,8 +31,6 @@ Make sure you have the [latest version](http://nodejs.org/). Check the version b
 Navigate to the project folder before entering this command. Modules are defined in `package.json`.
 
     npm install
-
-Make sure to run `npm update` anytime package.json is updated.
 
 ## Development
 
@@ -53,7 +44,7 @@ Install new development-related modules (e.g., gulp plugins) via `npm install --
 
 ## Maintenance
 
-Use [npm-check-updates](https://github.com/tjunnone/npm-check-updates) for updating dependencies in package.json.
+Use [npm-check-updates](https://github.com/tjunnone/npm-check-updates) for updating dependencies in package.json. Make sure to run `npm update` any time package.json is updated.
 
 ## Getting Started Resources
 
