@@ -1,17 +1,20 @@
 {
     "browser": true,
-    "browserify": true,
-    "bitwise": true,
-    "camelcase": true,
     "curly": true,
     "eqeqeq": true,
-    "latedef": true,
-    "maxlen": 120,
+    "freeze": true,
+    "maxdepth": 4,
+    "maxcomplexity": 10,
+    "maxerr": 50,
+    "maxparams": 10,
+    "maxstatements": 50,
     "mocha": true,
-    "newcap": true,
-    "noarg": true,
     "node": true,
+    "nonbsp": true,
     "nonew": true,
+    "shadow": "outer",
     "undef": true,
-    "unused": true
+    "unused": true,
+    "globals": [
+    ]
 }

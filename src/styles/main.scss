@@ -1,0 +1,7 @@
+@import "helpers/functions";
+@import "helpers/variables";
+@import "helpers/mixins";
+
+body {
+    color: $primary-color;
+}
