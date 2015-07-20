@@ -5,14 +5,9 @@ Boilerplate project for front-end development built using [gulp](http://gulpjs.c
 ## Tools
 
 - [Sass](http://sass-lang.com/) + [Autoprefixer](https://github.com/ai/autoprefixer): CSS
-- [Browserify](http://browserify.org/) + [JSHint](http://jshint.com/): JavaScript
-- [BrowserSync](http://www.browsersync.io/): Live reload static web server
-
-## Future To Do
-
-- [Mocha](http://mochajs.org/) + [Chai](http://chaijs.com/) + [Sinon](http://sinonjs.org/): Unit testing
+- [Browserify](http://browserify.org/) + [JSHint](http://jshint.com/) + [JSCS](http://jscs.info/): JavaScript
 - [Watchify](https://github.com/substack/watchify): Faster Browserify builds
-- [Plato](https://github.com/es-analysis/plato) + [Istanbul](https://gotwarlost.github.io/istanbul/): Code coverage reports
+- [BrowserSync](http://www.browsersync.io/): Live reload static web server
 
 ## Setup
 
