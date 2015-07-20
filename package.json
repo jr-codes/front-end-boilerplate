@@ -15,10 +15,8 @@
     "gulp-jscs": "^1.6.0",
     "gulp-jscs-stylish": "^1.1.0",
     "gulp-jshint": "^1.11.2",
-    "gulp-load-plugins": "^1.0.0-rc",
     "gulp-minify-css": "^1.2.0",
     "gulp-postcss": "^5.1.9",
-    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.4",
     "gulp-size": "^1.2.3",
     "gulp-sourcemaps": "^1.5.2",
@@ -27,7 +25,6 @@
     "gulp-util": "^3.0.6",
     "jshint-stylish": "^2.0.1",
     "lodash": "^3.10.0",
-    "promise": "^7.0.3",
     "require-dir": "^0.3.0",
     "through2": "^2.0.0",
     "vinyl-buffer": "^1.0.0",
@@ -37,5 +34,8 @@
   "dependencies": {
     "jquery": "^2.1.4",
     "lodash": "^3.10.0"
+  },
+  "browserify": {
+    "transform": ["babelify"]
   }
 }

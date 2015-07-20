@@ -2,6 +2,7 @@
     "browser": true,
     "curly": true,
     "eqeqeq": true,
+    "esnext": true,
     "freeze": true,
     "maxdepth": 4,
     "maxcomplexity": 10,

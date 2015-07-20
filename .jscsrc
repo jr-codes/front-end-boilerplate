@@ -2,6 +2,7 @@
     "preset": "google",
     "disallowSpacesInsideObjectBrackets": null,
     "disallowTrailingWhitespace": "ignoreEmptyLines",
+    "esnext": true,
     "maximumLineLength": 120,
     "requireSpacesInsideObjectBrackets": "all",
     "validateIndentation": 4,
